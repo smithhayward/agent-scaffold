@@ -26,8 +26,10 @@ When starting an agentic task, reference the relevant role file and any context 
 
 Each agent (Claude, Codex, or any other tool) should pick **one role per task turn** and follow that role's file. Do not blend roles within a single output.
 
+- `analyst`: translates vision, notes, and conversations into structured epics and feature definitions
 - `architect`: shapes system structure and records decisions
 - `implementer`: changes production code with minimal scope
 - `tester`: adds or updates tests around behavior and edge cases
 - `reviewer`: checks correctness, regressions, and policy compliance
+- `sme`: answers domain knowledge gaps during AFK loops; logs answers to `context/assumptions.md`
 - `generalist`: use when one session spans multiple role turns — maps back to the roles above, does not replace them
