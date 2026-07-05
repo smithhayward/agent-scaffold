@@ -1,17 +1,19 @@
 # System Overview
 
+Short placeholder for the architecture overview.
+
 ## Components
 
-<!-- Describe the major components: broker connections, adapter layer, router/dispatcher, canonical model transformer, outbound sinks -->
+<!-- Describe the major system components here. -->
 
 ## Data flow
 
-```
-[Device] → [Inbound Adapter] → [Canonical Message] → [Router] → [Outbound Adapter] → [Consumer]
-```
+<!-- Describe how data moves through the system. -->
 
-<!-- Expand with a real diagram once the design is set -->
+## Key decoupling points
+
+<!-- List the main boundaries and separation points. -->
 
 ## Failure modes
 
-<!-- Describe what happens when: a broker disconnects, a payload is malformed, the router is overloaded -->
+<!-- Describe important failure scenarios and fallback behavior. -->

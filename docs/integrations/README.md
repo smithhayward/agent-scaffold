@@ -1,6 +1,6 @@
 # Integrations
 
-Per-integration setup, configuration, and behavioral notes. One file per external system the bridge connects to.
+Per-integration setup, configuration, and behavioral notes. One file per external system the product connects to.
 
 ## Naming convention
 

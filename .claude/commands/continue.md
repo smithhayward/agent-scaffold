@@ -1,0 +1,1 @@
+Read STATUS.md and summarize the current phase, next action, and any open decisions in 3-5 bullet points. Then ask the user whether to proceed with the next action or take a different direction. Do not begin any work until the user confirms.

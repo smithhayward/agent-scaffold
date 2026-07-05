@@ -1,6 +1,6 @@
 # Protocol References
 
-Describes how each supported IoT protocol behaves in this system: connection lifecycle, message framing, QoS semantics, and known edge cases. Agents implementing or testing adapters must read the relevant file here first.
+Describes how parts of the system interact with one another through interface contracts.
 
 ## Protocols
 

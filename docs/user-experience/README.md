@@ -1,6 +1,6 @@
 # User Experience
 
-Covers the experience of the people who operate and consume this bridge: operators configuring it and developers building on top of it.
+Covers the experience of the people who use this digital product or service.
 
 ## Contents
 
