@@ -37,6 +37,12 @@ Labels use two namespaces: **intent** (set by humans) and **state** (set by agen
 | `status:root-cause-confirmed` | Bug investigation complete; fix approved to proceed |
 | `status:review-pending` | PR is open; reviewer agent or human needs to act |
 
+### Source labels — set by agents on every action
+
+| Label | Meaning |
+|---|---|
+| `source:agent` | This issue or comment was created or last modified by an agent |
+
 ### Role labels — set by triage agent
 
 | Label | Meaning |
@@ -104,6 +110,10 @@ Based on type and blast radius, apply the appropriate `role:*` label for the nex
 
 Apply `status:ready` only if no `status:needs-info`, `status:human-required`, or `status:sme-required` labels are present.
 
+### Step 8: Mark agent authorship
+
+Always apply `source:agent` to the issue and append `_— triaged by agent_` as the last line of the triage comment. This distinguishes agent actions from human actions in the issue timeline.
+
 ---
 
 ## Triage comment template
@@ -133,6 +143,9 @@ Post this comment on every triaged issue. Fill in all fields; do not skip sectio
 > <what the SME should answer before implementation>
 
 **Recommended next action:** <role> — <one sentence describing the first agent action>
+
+---
+_— triaged by agent_
 ```
 
 ---
