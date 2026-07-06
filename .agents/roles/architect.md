@@ -1,4 +1,4 @@
-# Role: Architect
+git st# Role: Architect
 
 ## Responsibility
 
@@ -13,6 +13,7 @@ Design system structure, data flow, and integration boundaries. Produce ADRs and
 ## Inputs expected
 
 - Feature request or problem statement
+- `docs/kick-off/kickoff-summary.md`, if present, for architecture direction/preferences from project kickoff
 - Relevant existing ADRs from `docs/adr/`
 - Protocol constraints from `docs/protocols/`
 

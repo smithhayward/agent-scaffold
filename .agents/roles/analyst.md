@@ -16,6 +16,7 @@ Translate vision documents, loose notes, and feature conversations into structur
 ## Inputs expected
 
 - Vision doc, product notes, or conversation transcript describing a capability or goal
+- `docs/kick-off/kickoff-summary.md`, if present, as the initial framing for a brand-new project
 - Existing epics from `docs/product/epics.md` for context and to avoid duplication
 - Glossary from `docs/product/glossary.md`
 

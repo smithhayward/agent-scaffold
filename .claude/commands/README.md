@@ -7,6 +7,10 @@ Custom slash commands available in Claude Code when working in this repo. Each `
 - `/continue` — read STATUS.md and orient for the session; confirms next action before doing anything
 - `/status-update` — update STATUS.md to reflect end-of-session state; always run before committing at the end of a session
 
+## Project setup
+
+- `/kickoff` — bootstrap a new project's docs via guided Q&A (interactive or async); produces docs/kick-off/kickoff-summary.md for /analyst and /architect to build on
+
 ## Agent role skills
 
 - `/analyst` — run the analyst role against the current epic(s) in STATUS.md; surfaces open questions and MVP cuts before writing anything
